@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Condicionais</title>
+</head>
+<body>
+
+    <div class="conteiner">
+
+        <h1 id="saudacao"></h1>
+        <p>Vamos jogar Pedra, Papel ou Tesoura</p>
+        <!--
+            <p>
+                Orientações: <br>
+                <ul>
+                    <li>Digite um número entre 1 e 3</li>
+                    <li>O número 1 representa Pedra</li>
+                    <li>O número 2 representa Papel</li>
+                    <li>O número 3 representa Tesoura</li>
+                </ul>
+            </p>
+        -->
+        <div class="chance">
+            <button onclick="play('pedra')">Pedra</button>
+            <button onclick="play('papel')">Papel</button>
+            <button onclick="play('tesoura')">Tesoura</button>
+        </div>
+        <!--
+            <div class="input">
+                <label for="SJ">Sua jogada: <input type="text" id="SJ" placeholder="digite um número"></label>
+            </div>
+            <button onclick="jogar()">Jogar</button>
+        -->
+        <section>
+            <p id="resutado"></p>
+        </section>
+    </div>
+
+    <script src="acoes.js"></script>
+
+</body>
+</html>
